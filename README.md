@@ -1,4 +1,0 @@
-Plantilla
-=========
-
-Plantilla
