@@ -87,7 +87,7 @@ $('.menuaction1').animate({ opacity:0}, 500);
 $('.menuaction2').css({ opacity: 1, display:'inline-block' }, 3000);
 $('.circleblack').delay(1000).animate({ top:-170}, 700);
 $('#CircleO').delay(0).animate({ top:-237}, 700);
-$('.phoenix').delay(1000).animate({ top:-50}, 700);
+$('.phoenix').delay(1000).animate({ top:-15}, 700);
 $('.menubg').delay(10).animate({  height:311,top:-140}, 1000, function() {ShowNow();});
 
 }

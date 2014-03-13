@@ -1,0 +1,61 @@
+ <!-- Collapsed Area -->
+                        <div data-role="collapsible-set" >
+                            <div data-role="collapsible" data-collapsed="false" data-mini="true" data-iconpos="right"  >
+                                <h3>List Styles</h3>
+                                <!-- Star List -->
+                                <ul class="starlist">
+                                    <li>Star List</li>
+                                </ul>
+                                <!-- / Star List -->
+                                
+                                <!-- Check List -->
+                                <ul class="checklist">
+                                    <li>Check List</li>
+                                </ul>
+                                <!-- / Check List -->
+                                
+                                <!-- Bullet List -->
+                                <ul class="bulletlist">
+                                    <li>Bullet List</li>
+                                </ul>
+                                <!-- / Bullet List -->
+                                
+                                <!-- Numbered List -->
+                                <ol>
+                                    <li>Ordered List</li>
+                                </ol> 
+                                <!-- / Numbered List -->
+                            </div>
+                            
+                            
+                            <div data-role="collapsible" data-collapsed="true" data-mini="true" data-iconpos="right" >
+                            
+                                <h3>Messages</h3>
+                                <!-- Message style start //-->
+                                <div class="text-info">
+                                <div class="info">This is information message</div>
+                                <div class="success">This is success message</div>
+                                <div class="warning">This is warning message</div>
+                                <div class="error">This is error message</div>
+                                </div>
+                                <!-- Message style end //-->
+                            
+                            </div>
+                            
+                            
+                            <div data-role="collapsible" data-collapsed="true" data-mini="true" data-iconpos="right" >
+                            
+                                 <h3>Highlights</h3>
+                                 <!-- Highlight -->
+                                 <div class="text-info">
+                                 <p>Vestibulum molestie commodo lobortis. <span class="highlight-yellow">Vivamus</span> vulputate velit eget eros suscipit ullamcorper.          </p>
+                                 <p>Vestibulum molestie commodo lobortis. <span class="highlight-dark">Vivamus</span> vulputate velit eget eros suscipit ullamcorper.          </p>
+                                 <p>Vestibulum molestie commodo lobortis. <span class="highlight-green">Vivamus</span> vulputate velit eget eros suscipit ullamcorper.          </p>
+                                 <p>Vestibulum molestie commodo lobortis. <span class="highlight-red">Vivamus</span> vulputate velit eget eros suscipit ullamcorper.</p>
+                                 </div>
+                                 <!-- / Highlight -->
+                                  
+                            </div>
+                            
+                        </div>
+                        <!-- / Collapsed Area --> 

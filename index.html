@@ -58,7 +58,7 @@
                         <div class="circleobl">
                         
                             <div class="tpore">
-                                <img src="assets/images/rcircle.png" id="CircleO" alt="" />
+                                <img src="assets/images/rcircle_new.png" id="CircleO" alt="" />
                             </div>
                             
                         </div>
@@ -89,14 +89,25 @@
                                         
                                         <!-- Main Menu -->
                                         <div id="menuk">
-                                         <ul>
+                                         <div class="personal">
+			                        		<ul>
+            			            			<li><a href="#home"data-transition="fade" onClick="javascript:GoUpUp();"><img src="assets/images/icons/IC_servicios.png" width="102" height="134"></a></li>
+                                                <li><a href="#profile"data-transition="fade" onClick="javascript:GoUpUp();"><img src="assets/images/icons/IC_servicios.png" width="102" height="134"></a></li>
+                                                <li><a href="#portfolio"data-transition="fade" onClick="javascript:GoUpUp();"><img src="assets/images/icons/IC_servicios.png" width="102" height="134"></a></li>
+                                                <li><a href="#contactus"data-transition="fade" onClick="javascript:GoUpUp();"><img src="assets/images/icons/IC_servicios.png" width="102" height="134"></a></li>
+                        			        	
+                        
+                        					</ul>
+                        				</div>
+                                         
+                                         <!--<ul>
                                         
-                                            <li><a href="#home" data-transition="fade" onClick="javascript:GoUpUp();">HOME PAGE</a></li>
+                                            <li><a href="#home" data-transition="fade" onClick="javascript:GoUpUp();">Home</a></li>
                                             <li><a href="#profile" data-transition="fade" onClick="javascript:GoUpUp();">PROFILE</a></li>
                                             <li><a href="#portfolio" data-transition="fade" onClick="javascript:GoUpUp();">PORTFOLIO</a></li>
                                             <li><a href="#contactus" data-transition="fade" onClick="javascript:GoUpUp();">CONTACT US</a></li>
                                        
-                                        </ul>
+                                        </ul>-->
                                        </div>
                                        <!-- / Main Menu -->
                                 </div>
@@ -122,104 +133,41 @@
 				<div class="pocket"></div>
                 
                 <div data-role="content" class="home-content">
+                <div class="circle_login"></div>
+                
                 	<div class="pocketdown corner-box1">
                     	
                         <!-- Slider -->     
                         <div class="flex-container">
-                          <div class="flexslider">
-                           <ul class="slides"> 
-                                <li>
-                                <!-- Video -->
-                                 <iframe id="VimeoPlayer" src="http://player.vimeo.com/video/24456787?api=1&player_id=player_1" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-                                 <!-- Video -->
-                                </li>
-                                <li> 
-                                <img src="assets/images/Demo/Slide/demo4.jpg" alt="" />
-                                </li>
-                                <li>
-                                <img src="assets/images/Demo/Slide/demo3.jpg" alt="" />
-                                </li>
-                                <li>
-                                <img src="assets/images/Demo/Slide/demo2.jpg" alt="" />
-                                </li>  
-                            </ul>
-                          </div>
+                          <form>
+                            <label>Usuario</label>
+     						<input type="text"  placeholder="Usuario" required/>
+                            <label>Contraseña</label>
+                             <input type="password" placeholder="Contraseña" required/>
+                             <input type="submit" value="enviar">
+                          </form>
                         </div>
                         <!-- / Slider -->
                 
                         <!-- Text Area --> 
                         <div class="text-box-area corner-box1">       
                             <div class="text-info">
-                            <p><strong>Did you saw new menu?</strong><br/>
-                            The menu is animated with jquery and you just click it for open. Also you can put videos on slider.</p>
+                            <p><strong>Aún no tiene clave de acceso?</strong><br/>
+                            Ingresa aquí y solicítala</p>
                             </div>
                         </div>
                         <!-- / Text Area -->
                         
                         <div class="clearfix"></div>
                         
+                        <div class="personal">
+                        	<ul>
+                        		<li><img src="assets/images/icons/IC_servicios.png" width="102" height="134"></li>
+                                <li><img src="assets/images/icons/IC_servicios.png" width="106" height="134"></li>
                         
-                        <!-- Collapsed Area -->
-                        <div data-role="collapsible-set" >
-                            <div data-role="collapsible" data-collapsed="false" data-mini="true" data-iconpos="right"  >
-                                <h3>List Styles</h3>
-                                <!-- Star List -->
-                                <ul class="starlist">
-                                    <li>Star List</li>
-                                </ul>
-                                <!-- / Star List -->
-                                
-                                <!-- Check List -->
-                                <ul class="checklist">
-                                    <li>Check List</li>
-                                </ul>
-                                <!-- / Check List -->
-                                
-                                <!-- Bullet List -->
-                                <ul class="bulletlist">
-                                    <li>Bullet List</li>
-                                </ul>
-                                <!-- / Bullet List -->
-                                
-                                <!-- Numbered List -->
-                                <ol>
-                                    <li>Ordered List</li>
-                                </ol> 
-                                <!-- / Numbered List -->
-                            </div>
-                            
-                            
-                            <div data-role="collapsible" data-collapsed="true" data-mini="true" data-iconpos="right" >
-                            
-                                <h3>Messages</h3>
-                                <!-- Message style start //-->
-                                <div class="text-info">
-                                <div class="info">This is information message</div>
-                                <div class="success">This is success message</div>
-                                <div class="warning">This is warning message</div>
-                                <div class="error">This is error message</div>
-                                </div>
-                                <!-- Message style end //-->
-                            
-                            </div>
-                            
-                            
-                            <div data-role="collapsible" data-collapsed="true" data-mini="true" data-iconpos="right" >
-                            
-                                 <h3>Highlights</h3>
-                                 <!-- Highlight -->
-                                 <div class="text-info">
-                                 <p>Vestibulum molestie commodo lobortis. <span class="highlight-yellow">Vivamus</span> vulputate velit eget eros suscipit ullamcorper.          </p>
-                                 <p>Vestibulum molestie commodo lobortis. <span class="highlight-dark">Vivamus</span> vulputate velit eget eros suscipit ullamcorper.          </p>
-                                 <p>Vestibulum molestie commodo lobortis. <span class="highlight-green">Vivamus</span> vulputate velit eget eros suscipit ullamcorper.          </p>
-                                 <p>Vestibulum molestie commodo lobortis. <span class="highlight-red">Vivamus</span> vulputate velit eget eros suscipit ullamcorper.</p>
-                                 </div>
-                                 <!-- / Highlight -->
-                                  
-                            </div>
-                            
+                        	</ul>
                         </div>
-                        <!-- / Collapsed Area --> 
+                       
                         </div>
                        </div>
            
